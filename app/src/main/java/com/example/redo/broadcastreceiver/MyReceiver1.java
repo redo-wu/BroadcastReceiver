@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 
 public class MyReceiver1 extends BroadcastReceiver {
-    protected static final String action1 ="com.example.redo.broadcastreceiver.receiver.action.MyReceiver1";
+    protected static final String action1 = "com.example.redo.broadcastreceiver.receiver.action.MyReceiver1";
 
     public MyReceiver1() {
     }

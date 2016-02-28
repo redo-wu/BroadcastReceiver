@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Intent i = new Intent(MyReceiver.action);
 //                i.putExtra("data", "massege");
 //                sendBroadcast(i);
-                sendOrderedBroadcast(i,null);
+                sendOrderedBroadcast(i, null);
                 break;
             case R.id.btnReg:
                 if (receiver == null) {

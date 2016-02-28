@@ -5,8 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 
 public class MyReceiver extends BroadcastReceiver {
-    protected static final String action ="com.example.redo.broadcastreceiver.receiver.action.MyReceiver";
-    
+    protected static final String action = "com.example.redo.broadcastreceiver.receiver.action.MyReceiver";
+
     public MyReceiver() {
     }
 
@@ -15,5 +15,5 @@ public class MyReceiver extends BroadcastReceiver {
         System.out.println("myreceiver接收到了消息");
         abortBroadcast();
     }
-    
+
 }
